@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0351362894245F00BCBB79 /* AddEquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0351352894245F00BCBB79 /* AddEquipmentView.swift */; };
+		0F0351382894575600BCBB79 /* AllEquipmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0351372894575600BCBB79 /* AllEquipmentsView.swift */; };
+		0F03513A289457DC00BCBB79 /* EquipmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F035139289457DC00BCBB79 /* EquipmentsViewModel.swift */; };
+		0F03513C289459B500BCBB79 /* EquipmentRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03513B289459B500BCBB79 /* EquipmentRoundView.swift */; };
+		0F1D537C28913F2B002EEB04 /* CoctailRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D537B28913F2B002EEB04 /* CoctailRoundView.swift */; };
+		0F1D537E28914389002EEB04 /* CoctailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D537D28914389002EEB04 /* CoctailView.swift */; };
+		0F1D538028915471002EEB04 /* CoctailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D537F28915471002EEB04 /* CoctailViewModel.swift */; };
+		0F67F674289823AC002164EB /* IngredientsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67F673289823AC002164EB /* IngredientsNetworkManager.swift */; };
+		0F67F6762898246B002164EB /* EquipmentsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67F6752898246B002164EB /* EquipmentsNetworkManager.swift */; };
+		0F707C9F28A16FD200DFE605 /* HeartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F707C9E28A16FD200DFE605 /* HeartButton.swift */; };
+		0F8CE9662892C5FE00BDFB80 /* AddIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE9652892C5FE00BDFB80 /* AddIngredientView.swift */; };
+		0F8CE9682892EF3A00BDFB80 /* AllIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE9672892EF3A00BDFB80 /* AllIngredientsView.swift */; };
+		0FD08DF128954DB300389C58 /* IngredientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD08DF028954DB300389C58 /* IngredientsViewModel.swift */; };
+		0FD08DF32895506400389C58 /* IngredientRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD08DF22895506400389C58 /* IngredientRoundView.swift */; };
+		0FEF47A7288FFAF400691449 /* DrinkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47A6288FFAF400691449 /* DrinkerApp.swift */; };
+		0FEF47A9288FFAF400691449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47A8288FFAF400691449 /* ContentView.swift */; };
+		0FEF47AB288FFAF700691449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEF47AA288FFAF700691449 /* Assets.xcassets */; };
+		0FEF47AE288FFAF700691449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEF47AD288FFAF700691449 /* Preview Assets.xcassets */; };
+		0FEF47BB288FFC0000691449 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0FEF47BA288FFC0000691449 /* Realm */; };
+		0FEF47BD288FFC0000691449 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0FEF47BC288FFC0000691449 /* RealmSwift */; };
+		0FEF47BF288FFC5000691449 /* Coctail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47BE288FFC5000691449 /* Coctail.swift */; };
+		0FEF47C1288FFD4A00691449 /* CoctailFromRealm .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47C0288FFD4A00691449 /* CoctailFromRealm .swift */; };
+		0FEF47C4289000ED00691449 /* CoctailsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47C3289000ED00691449 /* CoctailsNetworkManager.swift */; };
+		0FEF47C82890019C00691449 /* AllCoctailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47C72890019C00691449 /* AllCoctailsView.swift */; };
+		0FEF47CB28900B3800691449 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47CA28900B3800691449 /* RealmManager.swift */; };
+		0FEF47CF28901DEE00691449 /* CoctailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF47CE28901DEE00691449 /* CoctailsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0351352894245F00BCBB79 /* AddEquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEquipmentView.swift; sourceTree = "<group>"; };
+		0F0351372894575600BCBB79 /* AllEquipmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEquipmentsView.swift; sourceTree = "<group>"; };
+		0F035139289457DC00BCBB79 /* EquipmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsViewModel.swift; sourceTree = "<group>"; };
+		0F03513B289459B500BCBB79 /* EquipmentRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentRoundView.swift; sourceTree = "<group>"; };
+		0F1D537B28913F2B002EEB04 /* CoctailRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailRoundView.swift; sourceTree = "<group>"; };
+		0F1D537D28914389002EEB04 /* CoctailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailView.swift; sourceTree = "<group>"; };
+		0F1D537F28915471002EEB04 /* CoctailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailViewModel.swift; sourceTree = "<group>"; };
+		0F67F673289823AC002164EB /* IngredientsNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsNetworkManager.swift; sourceTree = "<group>"; };
+		0F67F6752898246B002164EB /* EquipmentsNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsNetworkManager.swift; sourceTree = "<group>"; };
+		0F707C9E28A16FD200DFE605 /* HeartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButton.swift; sourceTree = "<group>"; };
+		0F8CE9652892C5FE00BDFB80 /* AddIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientView.swift; sourceTree = "<group>"; };
+		0F8CE9672892EF3A00BDFB80 /* AllIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllIngredientsView.swift; sourceTree = "<group>"; };
+		0FD08DF028954DB300389C58 /* IngredientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewModel.swift; sourceTree = "<group>"; };
+		0FD08DF22895506400389C58 /* IngredientRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRoundView.swift; sourceTree = "<group>"; };
+		0FEF47A3288FFAF400691449 /* Drinker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drinker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEF47A6288FFAF400691449 /* DrinkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkerApp.swift; sourceTree = "<group>"; };
+		0FEF47A8288FFAF400691449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FEF47AA288FFAF700691449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FEF47AD288FFAF700691449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FEF47BE288FFC5000691449 /* Coctail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coctail.swift; sourceTree = "<group>"; };
+		0FEF47C0288FFD4A00691449 /* CoctailFromRealm .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoctailFromRealm .swift"; sourceTree = "<group>"; };
+		0FEF47C3289000ED00691449 /* CoctailsNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsNetworkManager.swift; sourceTree = "<group>"; };
+		0FEF47C72890019C00691449 /* AllCoctailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoctailsView.swift; sourceTree = "<group>"; };
+		0FEF47CA28900B3800691449 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		0FEF47CE28901DEE00691449 /* CoctailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FEF47A0288FFAF400691449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEF47BD288FFC0000691449 /* RealmSwift in Frameworks */,
+				0FEF47BB288FFC0000691449 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8CE9642892C5E300BDFB80 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CE9652892C5FE00BDFB80 /* AddIngredientView.swift */,
+				0F0351352894245F00BCBB79 /* AddEquipmentView.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		0FEF479A288FFAF400691449 = {
+			isa = PBXGroup;
+			children = (
+				0FEF47A5288FFAF400691449 /* Drinker */,
+				0FEF47A4288FFAF400691449 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FEF47A4288FFAF400691449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47A3288FFAF400691449 /* Drinker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FEF47A5288FFAF400691449 /* Drinker */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47A6288FFAF400691449 /* DrinkerApp.swift */,
+				0FEF47B7288FFB2B00691449 /* BusinessLogic */,
+				0FEF47B6288FFB2500691449 /* Model */,
+				0FEF47B5288FFB1400691449 /* ViewModel */,
+				0FEF47B4288FFB0B00691449 /* VIew */,
+				0FEF47AA288FFAF700691449 /* Assets.xcassets */,
+				0FEF47AC288FFAF700691449 /* Preview Content */,
+			);
+			path = Drinker;
+			sourceTree = "<group>";
+		};
+		0FEF47AC288FFAF700691449 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47AD288FFAF700691449 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FEF47B4288FFB0B00691449 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47A8288FFAF400691449 /* ContentView.swift */,
+				0FEF47C72890019C00691449 /* AllCoctailsView.swift */,
+				0F1D537B28913F2B002EEB04 /* CoctailRoundView.swift */,
+				0F1D537D28914389002EEB04 /* CoctailView.swift */,
+				0F8CE9672892EF3A00BDFB80 /* AllIngredientsView.swift */,
+				0F0351372894575600BCBB79 /* AllEquipmentsView.swift */,
+				0F03513B289459B500BCBB79 /* EquipmentRoundView.swift */,
+				0FD08DF22895506400389C58 /* IngredientRoundView.swift */,
+				0F707C9E28A16FD200DFE605 /* HeartButton.swift */,
+				0F8CE9642892C5E300BDFB80 /* Admin */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		0FEF47B5288FFB1400691449 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47CE28901DEE00691449 /* CoctailsViewModel.swift */,
+				0F1D537F28915471002EEB04 /* CoctailViewModel.swift */,
+				0F035139289457DC00BCBB79 /* EquipmentsViewModel.swift */,
+				0FD08DF028954DB300389C58 /* IngredientsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FEF47B6288FFB2500691449 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47BE288FFC5000691449 /* Coctail.swift */,
+				0FEF47C0288FFD4A00691449 /* CoctailFromRealm .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FEF47B7288FFB2B00691449 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47C2289000CB00691449 /* Network */,
+				0FEF47C928900B0800691449 /* Realm */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		0FEF47C2289000CB00691449 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47C3289000ED00691449 /* CoctailsNetworkManager.swift */,
+				0F67F673289823AC002164EB /* IngredientsNetworkManager.swift */,
+				0F67F6752898246B002164EB /* EquipmentsNetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0FEF47C928900B0800691449 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF47CA28900B3800691449 /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FEF47A2288FFAF400691449 /* Drinker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEF47B1288FFAF700691449 /* Build configuration list for PBXNativeTarget "Drinker" */;
+			buildPhases = (
+				0FEF479F288FFAF400691449 /* Sources */,
+				0FEF47A0288FFAF400691449 /* Frameworks */,
+				0FEF47A1288FFAF400691449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drinker;
+			packageProductDependencies = (
+				0FEF47BA288FFC0000691449 /* Realm */,
+				0FEF47BC288FFC0000691449 /* RealmSwift */,
+			);
+			productName = Drinker;
+			productReference = 0FEF47A3288FFAF400691449 /* Drinker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FEF479B288FFAF400691449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0FEF47A2288FFAF400691449 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0FEF479E288FFAF400691449 /* Build configuration list for PBXProject "Drinker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FEF479A288FFAF400691449;
+			packageReferences = (
+				0FEF47B9288FFC0000691449 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 0FEF47A4288FFAF400691449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FEF47A2288FFAF400691449 /* Drinker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FEF47A1288FFAF400691449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEF47AE288FFAF700691449 /* Preview Assets.xcassets in Resources */,
+				0FEF47AB288FFAF700691449 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FEF479F288FFAF400691449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F67F6762898246B002164EB /* EquipmentsNetworkManager.swift in Sources */,
+				0F1D537C28913F2B002EEB04 /* CoctailRoundView.swift in Sources */,
+				0F1D538028915471002EEB04 /* CoctailViewModel.swift in Sources */,
+				0FEF47C82890019C00691449 /* AllCoctailsView.swift in Sources */,
+				0F0351382894575600BCBB79 /* AllEquipmentsView.swift in Sources */,
+				0F0351362894245F00BCBB79 /* AddEquipmentView.swift in Sources */,
+				0FEF47C4289000ED00691449 /* CoctailsNetworkManager.swift in Sources */,
+				0F8CE9662892C5FE00BDFB80 /* AddIngredientView.swift in Sources */,
+				0F03513C289459B500BCBB79 /* EquipmentRoundView.swift in Sources */,
+				0FEF47A9288FFAF400691449 /* ContentView.swift in Sources */,
+				0FD08DF128954DB300389C58 /* IngredientsViewModel.swift in Sources */,
+				0F1D537E28914389002EEB04 /* CoctailView.swift in Sources */,
+				0F67F674289823AC002164EB /* IngredientsNetworkManager.swift in Sources */,
+				0FEF47A7288FFAF400691449 /* DrinkerApp.swift in Sources */,
+				0FEF47C1288FFD4A00691449 /* CoctailFromRealm .swift in Sources */,
+				0F03513A289457DC00BCBB79 /* EquipmentsViewModel.swift in Sources */,
+				0F8CE9682892EF3A00BDFB80 /* AllIngredientsView.swift in Sources */,
+				0FEF47CB28900B3800691449 /* RealmManager.swift in Sources */,
+				0F707C9F28A16FD200DFE605 /* HeartButton.swift in Sources */,
+				0FD08DF32895506400389C58 /* IngredientRoundView.swift in Sources */,
+				0FEF47CF28901DEE00691449 /* CoctailsViewModel.swift in Sources */,
+				0FEF47BF288FFC5000691449 /* Coctail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FEF47AF288FFAF700691449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FEF47B0288FFAF700691449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FEF47B2288FFAF700691449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drinker/Preview Content\"";
+				DEVELOPMENT_TEAM = SK7334S258;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zasenko.Drinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FEF47B3288FFAF700691449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drinker/Preview Content\"";
+				DEVELOPMENT_TEAM = SK7334S258;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zasenko.Drinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FEF479E288FFAF400691449 /* Build configuration list for PBXProject "Drinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEF47AF288FFAF700691449 /* Debug */,
+				0FEF47B0288FFAF700691449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEF47B1288FFAF700691449 /* Build configuration list for PBXNativeTarget "Drinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEF47B2288FFAF700691449 /* Debug */,
+				0FEF47B3288FFAF700691449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0FEF47B9288FFC0000691449 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FEF47BA288FFC0000691449 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FEF47B9288FFC0000691449 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		0FEF47BC288FFC0000691449 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FEF47B9288FFC0000691449 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0FEF479B288FFAF400691449 /* Project object */;
+}
